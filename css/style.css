@@ -1,0 +1,51 @@
+body { 
+    font-size: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: black;
+}
+
+#para1{
+    color: blue;
+    background-color: beige;
+}
+
+#para2{
+    color: green;
+    margin-top: 50px;
+}
+
+ul.songs li {
+    font-style: italic;
+}
+
+.pop{
+    color: red;
+}
+
+.rock {
+    color: blue;
+}
+
+.jazz {
+    color: green;
+}
+
+.hiphop {
+    color: purple;
+}
+
+img{
+    float: left;
+    border-radius: 2em;
+    margin-right: 3em;
+}
+
+dic > p {
+    font-style: italic;
+    color: red;
+}
