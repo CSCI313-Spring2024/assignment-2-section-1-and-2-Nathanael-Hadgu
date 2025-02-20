@@ -1,51 +1,50 @@
-body { 
-    font-size: 20px;
-    margin-left: 10em;
-    margin-right: 10em;
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-h1{
-    color: black;
+section {
+  padding: 2rem 0;
 }
 
-#para1{
-    color: blue;
-    background-color: beige;
+.nav-link {
+  transition: color 0.3s ease;
 }
 
-#para2{
-    color: green;
-    margin-top: 50px;
+.nav-link:hover {
+  color: #f0ad4e;
+  background-color: aliceblue;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+h1 {
+  color: black;
+}
+
+#para1 {
+  color: blue;
+  background-color: beige;
+}
+
+#para2 {
+  color: green;
+  margin-top: 50px;
 }
 
 ul.songs li {
-    font-style: italic;
+  font-style: italic;
 }
 
-.pop{
-    color: red;
-}
-
-.rock {
-    color: blue;
-}
-
-.jazz {
-    color: green;
-}
-
-.hiphop {
-    color: purple;
-}
-
-img{
-    float: left;
-    border-radius: 2em;
-    margin-right: 3em;
+img {
+  float: left;
+  border-radius: 2em;
+  margin-right: 3em;
 }
 
 dic > p {
-    font-style: italic;
-    color: red;
+  font-style: italic;
+  color: red;
 }
