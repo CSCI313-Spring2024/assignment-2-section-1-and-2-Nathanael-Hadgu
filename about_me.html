@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nathanael Station</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    <h1>Welcome to the NIK!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Central station</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about_me.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+        <section id="about" class="mb5">
+            <img src="images/mepic.jpeg" class="card-img-top" alt="Self pic">
+            <h1 class="text-center">About me</h1>
+            <article>
+                <h1>My Background</h1>
+                <p>I grew up in Rosemount MN, a small town in the south metro. I have a couple hobbies such as 
+                  theatre, robotics and DECA. through these many activites I have learned a lot about teamwork,
+                  leadership, communication, and studies. I have unfortunately not had the opportunity to continue 
+                  theatre and DECA in college but I have been able to continue robotics, being a part of NDSU's 
+                  bison robotics team. I also work at the NDSU library as a student assistant.
+                </p>
+        </section>
+    <h2 class="mt-5">Weekly Schedule</h2>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Day</th>
+                        <th>Classes</th>
+                        <th>Work</th>
+                        <th>Extracurricular</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>CSI 313 - MATH 165</td>
+                        <td>N/A</td>
+                        <td>Gym - Bison Robotics</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>MATH 165 - ENGL 110 - ECE 275</td>
+                        <td>Library: (ISS) - (DFL)</td>
+                        <td>Gym - Bison MMA</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSI 313 - MATH 165 - ECE 275</td>
+                        <td>N/A</td>
+                        <td>Gym - Bison MMA - Bison Robotics - Bible study</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>MATH 165 - ENGL 110 - ECE 275</td>
+                        <td>Library: (ISS) - (DFL)</td>
+                        <td>Gym - Bison MMA - BSA</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>CSI 313 - MATH 165</td>
+                        <td>Library(DFL)</td>
+                        <td>Gym</td>
+                    </tr>
+                </tbody>
+            </table> <!-- Favorite Sites -->
+            <h2 class="mt-4">Favorite Sites</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                <li><a href="https://blackboard.ndus.edu/?new_loc=%2Fultra%2Fcourses%2F_373794_1%2Fcl%2Foutline" target="_blank">Blackboard</a></li>
+            </ul> <!-- Favorite Movies / Books -->
+            <h2 class="mt-4">Favorite Movies / Books</h2>
+            <ul>
+                <li>Inception</li>
+                <li>Your Name</li>
+                <li>10 angry men</li>
+            </ul> <!-- Hobbies (Ordered List) -->
+            <h2 class="mt-4">Hobbies</h2>
+            <ol>
+                <li>Video games</li>
+                <li>Photography</li>
+                <li>Traveling</li>
+                <li>Reading manga</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 NHHS. All rights reserved.
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbarNav");
+            if (x.className === "navbar-collapse") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar-collapse";
+            }
+        }
+    </script>
+  </body>
+  </html>
